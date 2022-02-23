@@ -1,5 +1,0 @@
-Esrtutura de repetição
-
-Estrutura que permite executar mais de uma vez o mesmo comando ou o
-conjunto de comandos, de acordo com uma condição ou com um CONTADOR
-
