@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Totto"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-01 09:37:05 "/>
+        <attribute name="created" value="VG90dG87REVTS1RPUC00UzlJM1ZDOzIwMjItMDItMDE7IjA5OjE5OjIyICI7Mjc3Nw=="/>
+        <attribute name="edited" value="VG90dG87REVTS1RPUC00UzlJM1ZDOzIwMjItMDItMDE7IjA5OjM3OjA1ICI7MTY7Mjk0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="multiplo, num, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, seja bem vindo! Digite um numero para calcularmos a tabuada:&quot;" newline="True"/>
+            <input variable="multiplo"/>
+            <output expression="&quot;Aqui est&#225;:&quot;" newline="True"/>
+            <assign variable="num" expression="0"/>
+            <assign variable="resultado" expression="1 * multiplo"/>
+            <while expression="resultado &lt;= multiplo * 10">
+                <output expression="multiplo &amp; &quot; x &quot; &amp; num + 1 &amp;&quot; = &quot; &amp; resultado" newline="True"/>
+                <assign variable="num" expression="num + 1"/>
+                <assign variable="resultado" expression="multiplo * (num + 1)"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

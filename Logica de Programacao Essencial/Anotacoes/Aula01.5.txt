@@ -1,0 +1,4 @@
+Concatenação - é um termo usado em computação para designar a operação de unir o conteúdo
+de duas strings*
+
+*string é uma sequência de caracteres
